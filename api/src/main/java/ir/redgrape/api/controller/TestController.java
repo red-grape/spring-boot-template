@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/test")
 public class TestController {
 
-    private TestService testService;
+    private final TestService testService;
 
     public TestController(TestService testService){
         this.testService = testService;

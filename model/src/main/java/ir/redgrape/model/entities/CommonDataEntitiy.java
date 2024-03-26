@@ -1,10 +1,9 @@
 package ir.redgrape.model.entities;
 
+import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
-import net.bytebuddy.utility.nullability.MaybeNull;
 
-import javax.persistence.*;
 
 @Entity
 @Table(name = "CommonDatas")
